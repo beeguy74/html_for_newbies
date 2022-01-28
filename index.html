@@ -6,63 +6,87 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="info">
-        <img src="Neverov.jpeg" alt="My photo" width="200" class="avatar"/>
-        <h1>Ярослав Неверов</h1>
-        <p><em> full-stack developer <strong>стажёр</strong> </em></p>
-        <!-- tag "em" marks text that has stress emphasis  -->
-        <p>Изучаю python и javascript</p>
+    <div class="container">
+        <div class="info">
+            <img src="Neverov.jpeg" alt="My photo" width="200" class="avatar"/>
+            <div class="info-text">
+                <h1>Ярослав Неверов</h1>
+                <p><em> full-stack developer <strong>стажёр</strong> </em></p>
+                <!-- tag "em" marks text that has stress emphasis  -->
+                <p>Изучаю python и javascript</p>
+                <h4>Свяжитесь со мной</h4>
+                    <a href="tel:+7-908-824-8172" target="_blank">+7-908-824-8172</a>
+                    |
+                    <a href="https://t.me/beeguy/" target="_blank">Telegram</a> 
+                    |
+                    <a href="mailto:y.neverov@yandex.ru" target="_blank">y.neverov@yandex.ru</a>
+            </div>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Навыки</h2>
+            <ol class="skills">
+                <li>Python Django</li>
+                <li>Docker</li>
+                <li>Html CSS</li>
+                <li>Javascript</li>
+            </ol>
+
+        </div>
+        <div class="card bg-yellow">
+            <h2>Образование</h2>
+            <a href="courses.html">Посмотреть список</a>
+        </div>
+        <div class="card bg-green">
+        <h2>Опыт работы</h2>
+            <table class="work">
+                <tr><!--строка-->
+                    <th>Компания</th><!--заголовок столбца-->
+                    <th>Опыт работы</th>
+                    <th>Год</th>
+                </tr>
+                <tr>
+                    <td>Урал-финанс</td><!--столбец-->
+                    <td>бухгалтер</td>
+                    <td>2015 - 2020</td>
+                </tr>
+                <tr>
+                    <td>ЧМК</td>
+                    <td>электромонтер</td>
+                    <td>2014 - 2015</td>
+                </tr>
+            </table>
+        </div>
+        <div class="contact">
+            <h2>Обратная связь</h2>
+            <form>
+                <div class="raw">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name"
+                        placeholder="Введите имя...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email"
+                        placeholder="Введите адрес...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea id="text" cols="15" rows="2"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Связаться">
+            </form>
+        </div>
+        <div class="position">
+            <video class="box" width="320" height="200" autoplay loop>
+                <source src="what.mp4" type="video/mp4">
+                
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <br>
     </div>
-    <hr>
-    <h2>Свяжитесь со мной</h2>
-    <ul><!-- makes list -->
-        <li>+7-908-824-8172</li>
-        <li><a href="https://t.me/beeguy/" target="_blank"></a> Telegram</li>
-        <li><a href="y.neverov@yandex.ru" target="_blank"></a>y.neverov@yandex.ru</li>
-    </ul>
-    <h2>Образование</h2>
-    <ul>
-        <a href="courses.html">Посмотреть список</a>
-    </ul>
-    <h2>Опыт работы</h2>
-    <table border="1">
-        <tr><!--строка-->
-            <th>Компания</th><!--заголовок столбца-->
-            <th>Опыт работы</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>Урал-финанс</td><!--столбец-->
-            <td>бухгалтер</td>
-            <td>2015 - 2020</td>
-        </tr>
-        <tr>
-            <td>ЧМК</td>
-            <td>электромонтер</td>
-            <td>2014 - 2015</td>
-        </tr>
-    </table>
-
-
-    <h2>Обратная связь</h2>
-    <form>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name"
-        placeholder="Введите имя...">
-        <br>
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email"
-        placeholder="Введите адрес...">
-        <br>
-        <label for="text">Ваше сообщение:</label>
-        <br>
-        <textarea id="text" cols="15" rows="2"></textarea>
-        <br>
-        <input type="submit" value="Связаться">
-    </form>
-
-    <br>
-    <img src="https://cdnb.artstation.com/p/assets/images/images/006/556/831/large/xuan-ying-4.jpg?1499502178"
-     width="400" alt="hamburger developer">
 </body>
 </html>
