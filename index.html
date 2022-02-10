@@ -8,12 +8,12 @@
 <body>
     <div class="container">
         <div class="info">
-            <img src="Neverov.jpeg" alt="My photo" width="200" class="avatar"/>
+            <img src="Neverov.jpg" alt="My photo" width="200" class="avatar"/>
             <div class="info-text">
                 <h1>Ярослав Неверов</h1>
-                <p><em> full-stack developer <strong>стажёр</strong> </em></p>
+                <h2> full-stack developer <strong>стажёр</strong> </h2>
                 <!-- tag "em" marks text that has stress emphasis  -->
-                <p>Изучаю python и javascript</p>
+                <p>29 лет, изучаю python и javascript</p>
                 <h4>Свяжитесь со мной</h4>
                     <a href="tel:+7-908-824-8172" target="_blank">+7-908-824-8172</a>
                     |
@@ -26,67 +26,60 @@
         <div class="card bg-red">
             <h2>Навыки</h2>
             <ol class="skills">
-                <li>Python Django</li>
-                <li>Docker</li>
-                <li>Html CSS</li>
-                <li>Javascript</li>
+                <li>Back: Python Django REST aiohttp SQL</li>
+                <li>Front: Html CSS Javascript React</li>
+                <li>Other: C/C++ Docker</li>
             </ol>
-
         </div>
         <div class="card bg-yellow">
             <h2>Образование</h2>
-            <a href="courses.html">Посмотреть список</a>
+                <table class="work">
+                    <tr>
+                        <td>АНО "Школа 21"</td><!--столбец-->
+                        <td>C++, aлгоритмы, структуры данных, веб-технологии</td>
+                        <td>с ноября 2020 г.</td>
+                    </tr>
+                    <tr>
+                        <td>Coursera</td>
+                        <td>Python3, SQL</td>
+                        <td>с октября 2021 г.</td>
+                    </tr>
+                    <tr>
+                        <td>МФТИ</td>
+                        <td>Продвинутые алгоритмы</td>
+                        <td>апрель 2021 г.</td>
+                    </tr>
+                </table>
         </div>
         <div class="card bg-green">
-        <h2>Опыт работы</h2>
+        <h2>Учебные проекты</h2>
             <table class="work">
-                <tr><!--строка-->
-                    <th>Компания</th><!--заголовок столбца-->
-                    <th>Опыт работы</th>
-                    <th>Год</th>
+                <tr>
+                    <td>Django + React imageboard</td><!--столбец-->
+                    <td>
+                        <a href="https://github.com/beeguy74/tweet_clone" target="_blank">
+                            github.com/beeguy74/tweet_clone
+                        </a>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Урал-финанс</td><!--столбец-->
-                    <td>бухгалтер</td>
-                    <td>2015 - 2020</td>
+                    <td>Aiohttp server</td><!--столбец-->
+                    <td>
+                        <a href="https://github.com/beeguy74/aiohttp_server" target="_blank">
+                            github.com/beeguy74/aiohttp_server
+                        </a>
+                    </td>
                 </tr>
                 <tr>
-                    <td>ЧМК</td>
-                    <td>электромонтер</td>
-                    <td>2014 - 2015</td>
+                    <td>HTML CV</td><!--столбец-->
+                    <td>
+                        <a href="https://github.com/beeguy74/html_for_newbies" target="_blank">
+                            github.com/beeguy74/html_for_newbies
+                        </a>
+                    </td>
                 </tr>
             </table>
         </div>
-        <div class="contact">
-            <h2>Обратная связь</h2>
-            <form>
-                <div class="raw">
-                    <div class="form-group">
-                        <label for="name">Ваше имя:</label>
-                        <input type="text" id="name"
-                        placeholder="Введите имя...">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Ваш email:</label>
-                        <input type="email" id="email"
-                        placeholder="Введите адрес...">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="text">Ваше сообщение:</label>
-                    <textarea id="text" cols="15" rows="2"></textarea>
-                </div>
-                <input class="btn" type="submit" value="Связаться">
-            </form>
-        </div>
-        <div class="position">
-            <video class="box" width="320" height="200" autoplay loop>
-                <source src="what.mp4" type="video/mp4">
-                
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <br>
     </div>
 </body>
 </html>
