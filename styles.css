@@ -29,7 +29,7 @@ a:visited {
 }
 
 .bg-orange {
-    background: #EFAE82CC;
+    background: #f5c4a3cc;
 }
 
 .bg-green{
@@ -120,6 +120,24 @@ a:visited {
     margin: 0;
     text-align: left;
 }
+
+.jobs{
+    width: 100%;
+}
+
+.jobs td:nth-child(2),
+.jobs td:nth-child(3),
+.jobs th:nth-child(2),
+.jobs th:nth-child(3) {
+    color: #0f0f0f;
+}
+
+.work th {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
 
 .contact h2{
     text-align: center;
