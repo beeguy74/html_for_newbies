@@ -130,9 +130,11 @@ a:visited {
     padding: 0;
     margin: 0;
     text-align: left;
-    vertical-align: top;
 }
 
+.jobs tbody {
+    vertical-align: text-top;
+}
 
 .contact h2{
     text-align: center;
