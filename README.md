@@ -1,2 +1,2 @@
 # html_for_newbies
-This is my updating CV
+This is my updated CV
