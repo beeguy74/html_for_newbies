@@ -41,6 +41,11 @@ a:visited {
     border-radius: 20px;
 }
 
+.card h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .avatar {
     width: "200";
     border-radius: 28px;
@@ -81,10 +86,6 @@ a:visited {
 .info p {
     color: #000000;    
     margin: 0;
-    margin-bottom: 10px;
-}
-
-.card h2 {
     margin-bottom: 10px;
 }
 
@@ -189,4 +190,8 @@ a:visited {
     padding-top: 30px;
     max-width: 750px;
     margin: auto;
+}
+
+td{
+    vertical-align: text-top;
 }
