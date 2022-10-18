@@ -107,9 +107,6 @@ a:visited {
 .work td:nth-child(2),
 .work td:nth-child(3),
 .work th:nth-child(2),
-.work th:nth-child(3) {
-    color: #86898f;
-}
 
 .work th {
     padding: 0;
@@ -139,25 +136,6 @@ a:visited {
     text-align: center;
 }
 
-
-.form-group label {
-    display: block;
-    font-size: 14px;
-    color: #86898f;
-}
-
-.form-group input,
-.form-group textarea{
-    width: 100%;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    color: #000000;
-    padding: 15px 0 10px;
-    outline: none;
-    font-family: inherit;
-    background: transparent;
-}
 
 .raw {
     display: flex;
