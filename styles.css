@@ -99,7 +99,7 @@ a:visited {
     margin-bottom: 10px;
 }
 
-.skills:last-child {
+.skills li:last-child {
     margin-bottom: 0px;
 }
 
@@ -199,3 +199,4 @@ a:visited {
 td{
     vertical-align: text-top;
 }
+
