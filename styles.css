@@ -99,6 +99,10 @@ a:visited {
     margin-bottom: 10px;
 }
 
+.skills:last-child {
+    margin-bottom: 0px;
+}
+
 .work{
     width: 100%;
 }
